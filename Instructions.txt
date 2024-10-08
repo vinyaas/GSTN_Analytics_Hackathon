@@ -1,0 +1,13 @@
+
+To verify the integrity of this data, kindly compare the SHA256 of the data with the one provided in the SHA_256.txt
+One of the ways this can be done is as follows
+
+Instruction on how to verify the integrity of this data using checksum.py file provided.
+
+Step 1 ->  Install Python on your system. Depending on the system the steps could vary. You can use the following official site for more details - https://www.python.org/downloads/
+Step 2 -> Once python installation is complete open terminal.
+Step 3 -> Navigate to the folder directory where this readme along with other files are located.
+Step 4 -> Execute the file checksum.py while giving the file path as a command line argument. The output will be the Hash of the specific file.
+
+Example of command when run on Windows 11 with python 3.12.4 installed
+"python .\checksum.py .\X_Test_Data_Input.csv"
